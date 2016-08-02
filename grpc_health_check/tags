@@ -1,0 +1,60 @@
+!_TAG_FILE_FORMAT	2
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted/
+!_TAG_PROGRAM_AUTHOR	Joel Stemmer	/stemmertech@gmail.com/
+!_TAG_PROGRAM_NAME	gotags
+!_TAG_PROGRAM_URL	https://github.com/jstemmer/gotags
+!_TAG_PROGRAM_VERSION	1.3.0	/go1.6.2/
+Descriptor	helloworld/helloworld.pb.go	45;"	m	access:public	ctype:HelloRequest	line:45	signature:()	type:[]byte, []int
+Descriptor	helloworld/helloworld.pb.go	55;"	m	access:public	ctype:HelloReply	line:55	signature:()	type:[]byte, []int
+GreeterClient	helloworld/helloworld.pb.go	72;"	n	access:public	line:72	type:interface
+GreeterServer	helloworld/helloworld.pb.go	96;"	n	access:public	line:96	type:interface
+HelloReply	helloworld/helloworld.pb.go	48;"	t	access:public	line:48	type:struct
+HelloRequest	helloworld/helloworld.pb.go	38;"	t	access:public	line:38	type:struct
+Message	helloworld/helloworld.pb.go	49;"	w	access:public	ctype:HelloReply	line:49	type:string
+Name	helloworld/helloworld.pb.go	39;"	w	access:public	ctype:HelloRequest	line:39	type:string
+NewGreeterClient	helloworld/helloworld.pb.go	81;"	f	access:public	line:81	signature:(cc *grpc.ClientConn)	type:GreeterClient
+ProtoMessage	helloworld/helloworld.pb.go	44;"	m	access:public	ctype:HelloRequest	line:44	signature:()
+ProtoMessage	helloworld/helloworld.pb.go	54;"	m	access:public	ctype:HelloReply	line:54	signature:()
+RegisterGreeterServer	helloworld/helloworld.pb.go	101;"	f	access:public	line:101	signature:(s *grpc.Server, srv GreeterServer)
+Reset	helloworld/helloworld.pb.go	42;"	m	access:public	ctype:HelloRequest	line:42	signature:()
+Reset	helloworld/helloworld.pb.go	52;"	m	access:public	ctype:HelloReply	line:52	signature:()
+SayHello	greeter_server/main.go	56;"	m	access:public	ctype:server	line:56	signature:(ctx context.Context, in *pb.HelloRequest)	type:*pb.HelloReply, error
+SayHello	helloworld/helloworld.pb.go	74;"	m	access:public	line:74	ntype:GreeterClient	signature:(ctx context.Context, in *HelloRequest, opts )	type:*HelloReply, error
+SayHello	helloworld/helloworld.pb.go	85;"	m	access:public	ctype:greeterClient	line:85	signature:(ctx context.Context, in *HelloRequest, opts )	type:*HelloReply, error
+SayHello	helloworld/helloworld.pb.go	98;"	m	access:public	line:98	ntype:GreeterServer	signature:(context.Context, *HelloRequest)	type:*HelloReply, error
+String	helloworld/helloworld.pb.go	43;"	m	access:public	ctype:HelloRequest	line:43	signature:()	type:string
+String	helloworld/helloworld.pb.go	53;"	m	access:public	ctype:HelloReply	line:53	signature:()	type:string
+_Greeter_SayHello_Handler	helloworld/helloworld.pb.go	105;"	f	access:private	line:105	signature:(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor)	type:interface{}, error
+_Greeter_serviceDesc	helloworld/helloworld.pb.go	123;"	v	access:private	line:123
+address	greeter_client/main.go	49;"	c	access:private	line:49
+cc	helloworld/helloworld.pb.go	78;"	w	access:private	ctype:greeterClient	line:78	type:*grpc.ClientConn
+defaultName	greeter_client/main.go	50;"	c	access:private	line:50
+fileDescriptor0	helloworld/helloworld.pb.go	138;"	v	access:private	line:138
+fmt	helloworld/helloworld.pb.go	18;"	i	line:18
+github.com/HuKeping/examples/grpc_health_check/helloworld	greeter_client/main.go	40;"	i	line:40
+github.com/golang/protobuf/proto	helloworld/helloworld.pb.go	17;"	i	line:17
+golang.org/x/net/context	greeter_client/main.go	41;"	i	line:41
+golang.org/x/net/context	greeter_server/main.go	40;"	i	line:40
+golang.org/x/net/context	helloworld/helloworld.pb.go	22;"	i	line:22
+google.golang.org/grpc	greeter_client/main.go	42;"	i	line:42
+google.golang.org/grpc	greeter_server/main.go	41;"	i	line:41
+google.golang.org/grpc	helloworld/helloworld.pb.go	23;"	i	line:23
+google.golang.org/grpc/examples/helloworld/helloworld	greeter_server/main.go	42;"	i	line:42
+google.golang.org/grpc/health	greeter_server/main.go	43;"	i	line:43
+google.golang.org/grpc/health/grpc_health_v1	greeter_client/main.go	43;"	i	line:43
+greeterClient	helloworld/helloworld.pb.go	77;"	t	access:private	line:77	type:struct
+healthServer	greeter_server/main.go	52;"	w	access:private	ctype:server	line:52	type:*health.Server
+helloworld	helloworld/helloworld.pb.go	15;"	p	line:15
+init	helloworld/helloworld.pb.go	136;"	f	access:private	line:136	signature:()
+init	helloworld/helloworld.pb.go	57;"	f	access:private	line:57	signature:()
+log	greeter_client/main.go	37;"	i	line:37
+log	greeter_server/main.go	37;"	i	line:37
+main	greeter_client/main.go	34;"	p	line:34
+main	greeter_client/main.go	53;"	f	access:private	line:53	signature:()
+main	greeter_server/main.go	34;"	p	line:34
+main	greeter_server/main.go	60;"	f	access:private	line:60	signature:()
+math	helloworld/helloworld.pb.go	19;"	i	line:19
+net	greeter_server/main.go	38;"	i	line:38
+os	greeter_client/main.go	38;"	i	line:38
+port	greeter_server/main.go	47;"	c	access:private	line:47
+server	greeter_server/main.go	51;"	t	access:private	line:51	type:struct
